@@ -1,6 +1,9 @@
 import './App.css';
+import './components/TemperatureConverter.css';
 import Message from './components/Message';
 import CommentsList from './components/CommentsList';
+import TemperatureConverter from './components/TemperatureConverter';
+import ToDoList from './components/ToDoList';
 
 function App() {
   return (
@@ -13,6 +16,10 @@ function App() {
        а на весь срок"/>
 
        <CommentsList/>
+
+       <TemperatureConverter/>
+
+       <ToDoList />
     </div>
   );
 }
