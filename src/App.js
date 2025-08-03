@@ -4,6 +4,10 @@ import Message from './components/Message';
 import CommentsList from './components/CommentsList';
 import TemperatureConverter from './components/TemperatureConverter';
 import ToDoList from './components/ToDoList';
+import { Route, Routes } from 'react-router-dom';
+import AboutPage from './components/AboutPage';
+import HomePage from './components/HomePage';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
@@ -20,6 +24,14 @@ function App() {
        <TemperatureConverter/>
 
        <ToDoList />
+
+      <Navbar/>
+      <Routes>
+         <Route path='/about' element = {<AboutPage/>}/>
+         <Route path='/' element = {<HomePage/>}/>
+
+      </Routes>
+
     </div>
   );
 }
