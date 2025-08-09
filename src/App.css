@@ -60,3 +60,23 @@
 .delete-button:hover {
   background-color: #c82333;
 }
+
+body.light-theme {
+  background: white;
+  color: black;
+}
+
+body.dark-theme {
+  background: black;
+  color: white;
+}
+
+button.dark {
+  background: #333;
+  color: white;
+}
+
+button.light {
+  background: #eee;
+  color: black;
+}

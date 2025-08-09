@@ -8,6 +8,7 @@ import { Route, Routes } from 'react-router-dom';
 import AboutPage from './components/AboutPage';
 import HomePage from './components/HomePage';
 import Navbar from './components/Navbar';
+import DarkMode from './DarkMode';
 
 function App() {
   return (
@@ -31,6 +32,8 @@ function App() {
          <Route path='/' element = {<HomePage/>}/>
 
       </Routes>
+
+      <DarkMode />
 
     </div>
   );
